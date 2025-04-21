@@ -1,3 +1,4 @@
+# MetroRoutes
 This Java-based application enables users to input the names of their source and destination stations within the Delhi Metro network. Based on this input, it calculates and displays the fare and the shortest metro route to reach the destination. For better commuter navigation, the program also includes a visual representation of the metro map.
 
 The core logic of the application relies on Graph and Heap data structures. In this graph, each node represents a metro station and holds details such as the station's name, the metro corridor it belongs to, and the lines it connects. The edges between nodes denote direct connections between stations, where the weight of each edge corresponds to the physical distance between the two stations.
